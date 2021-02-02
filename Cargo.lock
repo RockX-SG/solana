@@ -3472,9 +3472,9 @@ dependencies = [
 
 [[package]]
 name = "serde"
-version = "1.0.112"
+version = "1.0.118"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "736aac72d1eafe8e5962d1d1c3d99b0df526015ba40915cb3c49d042e92ec243"
+checksum = "06c64263859d87aa2eb554587e2d23183398d617427327cf2b3d0ed8c69e4800"
 dependencies = [
  "serde_derive",
 ]
@@ -3500,9 +3500,9 @@ dependencies = [
 
 [[package]]
 name = "serde_derive"
-version = "1.0.112"
+version = "1.0.118"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bf0343ce212ac0d3d6afd9391ac8e9c9efe06b533c8d33f660f6390cc4093f57"
+checksum = "c84d3526699cd55261af4b941e4e725444df67aa4f9e6a3564f18030d12672df"
 dependencies = [
  "proc-macro2 1.0.24",
  "quote 1.0.6",
@@ -6829,18 +6829,18 @@ dependencies = [
 
 [[package]]
 name = "zstd"
-version = "0.5.3+zstd.1.4.5"
+version = "0.6.0+zstd.1.4.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "01b32eaf771efa709e8308605bbf9319bf485dc1503179ec0469b611937c0cd8"
+checksum = "d4e44664feba7f2f1a9f300c1f6157f2d1bfc3c15c6f3cf4beabf3f5abe9c237"
 dependencies = [
  "zstd-safe",
 ]
 
 [[package]]
 name = "zstd-safe"
-version = "2.0.5+zstd.1.4.5"
+version = "3.0.0+zstd.1.4.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1cfb642e0d27f64729a639c52db457e0ae906e7bc6f5fe8f5c453230400f1055"
+checksum = "d9447afcd795693ad59918c7bbffe42fdd6e467d708f3537e3dc14dc598c573f"
 dependencies = [
  "libc",
  "zstd-sys",
@@ -6848,9 +6848,9 @@ dependencies = [
 
 [[package]]
 name = "zstd-sys"
-version = "1.4.17+zstd.1.4.5"
+version = "1.4.19+zstd.1.4.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b89249644df056b522696b1bb9e7c18c87e8ffa3e2f0dc3b0155875d6498f01b"
+checksum = "ec24a9273d24437afb8e71b16f3d9a5d569193cccdb7896213b59f552f387674"
 dependencies = [
  "cc",
  "glob",
